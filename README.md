@@ -4,7 +4,7 @@
 
 JML is an experimental, performer-agnostic format for representing jokes, bits, beats, delivery direction, and stage cues. Its central principle is **semantic direction by default, precise performance overrides when needed**.
 
-JML is independent of any voice synthesis model, animation system, or production tool. [Pumpkin Theater](https://github.com/bryceglass/pumpkin-theater) is an early prospective consumer, not part of the language specification.
+JML is independent of any voice synthesis model, animation system, or production tool. JML originated during development of *Pumpkin Theater*, an experimental animated comedy performance system. Pumpkin Theater is currently a private testbed and a prospective early consumer, not part of the public language specification.
 
 ## A taste of JML
 
