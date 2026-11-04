@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routine id="smart-porch" version="0.1">
+  <scene id="opening">
+    <bit id="smart-home" premise="Technology makes domestic life absurd">
+      <joke id="doorbell" form="setup-punch" intent="reversal">
+        <beat id="introduction">
+          <line character="comic">
+            <setup>I installed a smart doorbell. It recognizes everyone who visits.</setup>
+          </line>
+        </beat>
+        <beat id="payoff">
+          <line character="comic">
+            <pause ms="450"/>
+            <punch id="doorbell-punch" intent="reversal">
+              <attitude tone="deadpan">
+                <delivery pace="slow" volume="soft">Now it won't let me in.</delivery>
+              </attitude>
+            </punch>
+          </line>
+          <react character="sidekick" emote="surprised" after="doorbell-punch.end" delay="400ms"/>
+        </beat>
+      </joke>
+    </bit>
+  </scene>
+</routine>
